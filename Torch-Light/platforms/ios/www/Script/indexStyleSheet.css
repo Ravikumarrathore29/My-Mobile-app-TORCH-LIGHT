@@ -1,0 +1,161 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 7, 2018, 11:09:04 AM
+    Author     : ravi.rathore
+*/
+
+/* FONTS */
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+/* BASIC */
+body {
+    background: -webkit-linear-gradient(65deg, #121721 0%, black 100%);
+    background: linear-gradient(25deg, #121721 0%, black 100%);
+    color: #FFF;
+    font: 16px/1 "Open Sans", sans-serif;
+}
+.stage {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+/* TOGGLE */
+.col-toggle {
+    position: relative;
+    overflow: hidden;
+    width: 75px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.col-toggle input {
+    position: absolute;
+    top: -20px;
+}
+.col-toggle-label {
+    display: block;
+    overflow: hidden;
+    border: 2px solid #BBB;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.col-toggle-inner {
+    margin-left: -100%;
+    width: 200%;
+    -webkit-transition: margin .12s ease-in 0;
+    -moz-transition: margin .12s ease-in 0;
+    -o-transition: margin .12s ease-in 0;
+    transition: margin .12s ease-in 0;
+}
+.col-toggle-inner:before,
+.col-toggle-inner:after {
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    width: 50%;
+    height: 30px;
+    color: #fff;
+    font: 600 16px/1"Roboto Condensed", Arial;
+    font-weight: 700;
+    font-size: 1.1em;
+    line-height: 30px;
+}
+.col-toggle-inner:before {
+    padding-right: 25px;
+    background-color: #4D4D4D;
+    box-shadow: 0 4px 5px -2px rgba(0, 0, 0, 0.7) inset;
+    color: #FFF;
+    content: "ON";
+    text-align: center;
+    text-shadow: 0 -1px 0 #000;
+}
+.col-toggle-inner:after {
+    padding-left: 25px;
+    background-color: #FFF;
+    box-shadow: 0 4px 5px -2px rgba(0, 0, 0, 0.3) inset;
+    color: #4D4D4D;
+    content: "OFF";
+    text-align: center;
+}
+.col-toggle-switch {
+    position: absolute;
+    top: 0;
+    right: 46px;
+    bottom: 0;
+    margin: 0;
+    width: 25px;
+    border: 2px solid #AAA;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0 4px 0 -2px #F1F1F1 inset, 0 2em 2em -2em #AAA inset, 0 0 2px rgba(0, 0, 0, .5);
+    -webkit-transition: all .12s ease-in 0;
+    -moz-transition: all .12s ease-in 0;
+    -o-transition: all .12s ease-in 0;
+    transition: all .12s ease-in 0;
+}
+.col-toggle.active .col-toggle-label .col-toggle-inner {
+    margin-left: 0;
+}
+.col-toggle.active .col-toggle-label .col-toggle-switch {
+    right: 0;
+}
+
+
+
+/*
+.col-toggle input:checked + .col-toggle-label .col-toggle-inner {
+margin-left:0;
+}
+
+.col-toggle input:checked + .col-toggle-label .col-toggle-switch {
+right:0;
+}
+*/
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+   
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
