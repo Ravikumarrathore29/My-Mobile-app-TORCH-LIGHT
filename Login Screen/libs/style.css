@@ -1,0 +1,381 @@
+@charset "utf-8";
+/* CSS Document */
+
+.daily_report{
+    width:50%;
+}
+
+.lable_text{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:14px;
+    text-align:right;
+    padding-left: 2px;
+}
+
+.lable_text2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:14px;
+
+
+}
+.lable_text1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:14px;
+    text-align:right;
+    padding-left:10px;
+}
+.text_field{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:12px;
+    float:right;
+    width:150px;
+    padding-left:2px;
+}
+.text_field2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:12px;
+
+
+}
+.text_field1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:12px;
+    float:right;
+    width:80px;
+    padding-left:10px;
+}
+.field_text{
+    width:50px;
+    height:25px;
+}
+.bg_image{
+    background-image:url(images.jpg);
+    background-repeat:repeat-x repeat-y;
+
+
+}
+.center-wrapper{
+    text-align: center;
+}
+.center-wrapper * {
+    margin: 0 auto;
+    width: 50%;
+    margin-left: 25px;
+}
+
+.lable_texttd{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:14px;
+    text-align:right;
+    padding-left: 2px;
+    padding-top: 10px;
+}
+
+
+.NewRow{
+    border:1px solid blue;
+}
+
+.tdboxlabel{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size:15px;
+    padding-left: 5px;
+}
+
+.tdboxvalue{
+    padding-top: 10px;
+
+    padding-left: 5px;
+}
+
+.effortKPI{
+    padding-top: 6px;
+    font-weight: bold;
+
+}
+
+.quick_links{
+    border-bottom-left-radius: 65px;
+    border-bottom-right-radius: 65px;
+    background:#4d89e4;
+    width:100%;
+}
+.quick_links td{
+    background-image:url(../Images/quick_bg.png);
+    background-position:right;
+    background-repeat:no-repeat;
+    text-align:center;
+    padding:3px;
+}
+.quick_links td:nth-child(3){
+    background-image:none;
+}	
+.quick_links td a{
+    text-align:center;
+    color:#FFF;
+}
+/*@media screen and (min-height: 600px) {*/
+.mainbg{
+    background:#FFF; 
+    background-image:url(../Images/bg_lines.png); 
+    height:385px; 
+    background-repeat:no-repeat; 
+    background-position:center;
+}
+
+
+.quick_links{
+    border-bottom-left-radius: 65px;
+    border-bottom-right-radius: 65px;
+    background:#4d89e4;
+    width:100%;
+}
+.quick_links td{
+    background-image:url(../Images/quick_bg.png);
+    background-position:right;
+    background-repeat:no-repeat;
+    text-align:center;
+    padding:3px;
+}
+.quick_links td:nth-child(3){
+    background-image:none;
+}	
+.quick_links td a{
+    text-align:center;
+    color:#FFF;
+}
+
+.ui-link{
+    font-size: 15px;
+}
+
+.doctorvisit .ui-link{
+    line-height: 18px;
+}
+#doctorvisit{
+    padding-left: 30px; 
+}
+.user_icon{
+    margin:-160px;
+}
+
+
+.dcrview {
+    text-align:center; 
+    padding-top:50px; 
+    line-height:5px;
+}
+
+.effortkpi{
+    text-align:center;
+    vertical-align:top; 
+    line-height:5px;
+    padding-left: 25px;
+}
+
+.sales{
+    text-align:center; 
+    padding-top:50px; 
+    line-height:5px;
+    padding-left: 30px
+}
+
+.doctorview{
+    text-align:center; 
+    vertical-align:top; 
+    line-height:20px;
+}
+
+.callplan{
+    text-align:center; 
+    line-height:5px;
+    padding-left: 25px;
+}
+
+.doctorvisit{
+    text-align:center; 
+    vertical-align:top; 
+    line-height:5px;
+    padding-top:30px;
+}
+
+/*}*/
+
+@media screen and (max-height: 500px) {
+    .mainbg{
+        background:#FFF; 
+        background-image:url(../Images/bg_lines.png); 
+        background-size: contain;
+        height:255px; 
+        background-repeat:no-repeat; 
+        background-position:center;
+    }
+    .quick_links{
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        background:#4d89e4;
+        width:100%;
+    }
+    .quick_links td img{
+        width: 25%;
+    }
+    .quick_links td a{
+        font-size: 12px;
+    }
+
+    #EFFORTKPIIDCK{
+        font-size: 12px;
+    }
+
+    #EFFORTKPIIDCK img{
+        width: 50%;        
+    }
+
+    .dcrview{
+        text-align:center; 
+        padding-bottom:50px; 
+        line-height:5px;
+    }
+
+    .ui-link img{
+        width: 16%; 
+        padding-top: 0px !important; 
+    }
+    .ui-link{
+        font-size: 12px; 
+    }
+
+    .sales{
+        text-align:center; 
+        padding-bottom:50px; 
+        line-height:5px;
+    }
+
+    #SALESIDCK img{
+        width: 16%; 
+        padding-top: 0px !important; 
+    }
+    #SALESIDCK{
+        font-size: 12px; 
+    }
+
+    .callplan{
+        padding-bottom: 0px;
+    }
+    #CALLPLANID img{
+        width: 16%; 
+        padding-top: 0px !important;  
+    }
+    #CALLPLANID{
+        font-size: 12px;
+    }
+    .doctorvisit{
+        padding-top: 0px;
+    }
+    #DOCTORYEARID img{
+        width: 16%; 
+        padding-top: 0px !important;  
+    }
+    #DOCTORYEARID{
+        font-size: 12px;
+    }
+    .doctorvisit .ui-link{
+        line-height: 15px;
+
+    }
+
+    #doctorvisit {
+        padding-left: 0px;
+    }
+
+
+    .user_icon{
+        margin:-118px;
+    }
+    .user_icon img{
+        width:8%;
+    }
+
+    .iconsWrapper{
+        height: 70%;
+        background-color: white;
+        border-bottom: 1px solid gainsboro;
+        border-right: 1px solid gainsboro;
+    }
+    #homeScreenDashboard{
+        margin-bottom: 33%;
+    }
+    .glyphicon-edit {
+    font-size: 36px;
+    color: #fb8c00;
+}
+}
+@media screen and (min-height: 500px) and (max-height: 600px) {
+    .mainbg{
+        background:#FFF; 
+        background-image:url(../Images/bg_lines.png); 
+        background-size: contain;
+        height:340px; 
+        background-repeat:no-repeat; 
+        background-position:center;
+    }
+
+    .ui-link img{
+        /*        width: 70%; */
+        padding-top: 0px !important; 
+    }
+    .ui-link{
+        font-size: 14px;
+
+    }
+    .doctorvisit {
+        text-align: center;
+        vertical-align: top;
+        line-height: 5px;
+        padding-top: 40px;
+    }
+    .doctorvisit .ui-link{
+        line-height: 15px;
+    }
+    .callplan {
+        text-align: center;
+        line-height: 5px;
+        padding-top: 95px;
+    }
+    .dcrview {
+        text-align: center;
+        padding-top: 70px;
+        line-height: 5px;
+    }
+    .sales {
+        text-align: center;
+        padding-top: 70px;
+        line-height: 5px;
+    }
+
+
+    .user_icon{
+        margin:-200px;
+    }
+    .user_icon img{
+        width:9%;
+    }
+    .iconsWrapper{
+        height: 33%;
+        background-color: white;
+        border-bottom: 1px solid gainsboro;
+        border-right: 1px solid gainsboro;
+    }
+    .glyphicon-edit {
+    font-size: 36px;
+    color: #fb8c00;
+}
+}
